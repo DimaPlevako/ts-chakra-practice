@@ -1,0 +1,642 @@
+[
+  {
+    "id": 4926,
+    "question": "How do you capture the exit code of a child process?",
+    "description": "Capturing exit codes in child processes.",
+    "answers": {
+      "answer_a": "Listen to the 'exit' event on the child process object",
+      "answer_b": "Check the 'exitCode' property of the process object",
+      "answer_c": "Call 'child.getExitCode()'",
+      "answer_d": "The exit code is not available",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The 'exit' event provides the exit code of the child process.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "nodeJS"
+      }
+    ],
+    "category": "NodeJs",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6294,
+    "question": "How do you use 'v-once' to optimize performance in Vue for elements that do not change after rendering?",
+    "description": "Understanding how to use 'v-once' for rendering static elements efficiently.",
+    "answers": {
+      "answer_a": "Add 'v-once' to an element to prevent it from being re-rendered after initial rendering",
+      "answer_b": "Use 'v-if' to avoid re-rendering",
+      "answer_c": "Wrap the element in 'v-bind'",
+      "answer_d": "Vue does not support optimization for static elements",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The 'v-once' directive tells Vue to only render the element once and skip future updates, improving performance for static elements.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "VueJS"
+      }
+    ],
+    "category": "VueJS",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3577,
+    "question": "Which command is used to schedule a task to run at a specific time using cron in Ubuntu?",
+    "description": "Scheduling tasks with cron allows you to automate repetitive actions, such as backups.",
+    "answers": {
+      "answer_a": "Use 'crontab -e' and add the schedule and command",
+      "answer_b": "Run 'schedule-task cron'",
+      "answer_c": "Type 'task-schedule time'",
+      "answer_d": "Use 'set-cronjob'",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "To schedule a task with cron, use 'crontab -e' and add the appropriate schedule and command.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Ubuntu"
+      }
+    ],
+    "category": "Docker",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 792,
+    "question": "What is Hypervisor?",
+    "description": null,
+    "answers": {
+      "answer_a": "A hypervisor is a software that makes virtualization possible. It is also called Virtual Machine Monitor.",
+      "answer_b": "A hypervisor is a hardware that makes optimization possible. It is also called Virtual Machine Monitor.",
+      "answer_c": "A hypervisor is a software that makes optimization possible. It is also called Virtual Machine Monitor.",
+      "answer_d": null,
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "Docker"
+      }
+    ],
+    "category": "Docker",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 7180,
+    "question": "Which command finds the total size of a directory?",
+    "description": "Understanding how to check directory size in Bash.",
+    "answers": {
+      "answer_a": "du -sh directory",
+      "answer_b": "size directory",
+      "answer_c": "dirsize directory",
+      "answer_d": "ls -size directory",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The `du -sh` command shows the total size of a directory in a human-readable format.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "BASH"
+      }
+    ],
+    "category": "bash",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 8618,
+    "question": "Which function repeats a string a specified number of times?",
+    "description": "Understanding `str_repeat()` function behavior.",
+    "answers": {
+      "answer_a": "repeat_string()",
+      "answer_b": "str_multiply()",
+      "answer_c": "str_repeat()",
+      "answer_d": "string_duplicate()",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "true",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "`str_repeat()` repeats a string a given number of times.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "PHP"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2044,
+    "question": "What is the purpose of the 'bisect' module in Python?",
+    "description": "The 'bisect' module provides support for maintaining sorted lists.",
+    "answers": {
+      "answer_a": "To create balanced binary search trees",
+      "answer_b": "To insert elements into a list while maintaining sorted order",
+      "answer_c": "To sort elements in descending order",
+      "answer_d": "To remove duplicate elements",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The 'bisect' module is used to insert elements into a list while maintaining the list's sorted order, which is useful for binary searching.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9767,
+    "question": "What HTML element defines a section in a document that is tangentially related to the content around it?",
+    "description": "Semantic document structure.",
+    "answers": {
+      "answer_a": "<sidebar>",
+      "answer_b": "<aside>",
+      "answer_c": "<related>",
+      "answer_d": "<div>",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The <aside> element defines content related to surrounding content but tangentially related.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "HTML"
+      }
+    ],
+    "category": "HTML",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 1851,
+    "question": "How can weak references help in memory management?",
+    "description": "Weak references allow you to reference an object without increasing its reference count.",
+    "answers": {
+      "answer_a": "By preventing garbage collection",
+      "answer_b": "By allowing objects to be collected even if they are still referenced",
+      "answer_c": "By reducing memory usage to zero",
+      "answer_d": "By copying objects to disk",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Weak references allow you to reference an object without increasing its reference count, meaning the object can still be garbage collected even if weak references to it exist.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4870,
+    "question": "What happens if a worker thread tries to access Node.js APIs that are not thread-safe?",
+    "description": "Handling thread-unsafe APIs.",
+    "answers": {
+      "answer_a": "It may cause unpredictable behavior or crashes",
+      "answer_b": "The thread automatically restarts",
+      "answer_c": "The APIs become thread-safe",
+      "answer_d": "An error is thrown immediately",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Using thread-unsafe APIs in worker threads can lead to unpredictable behavior or crashes.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "nodeJS"
+      }
+    ],
+    "category": "NodeJs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2473,
+    "question": "How do you create a new Django project?",
+    "description": "You can create a new Django project using the 'django-admin startproject' command.",
+    "answers": {
+      "answer_a": "django-admin createproject",
+      "answer_b": "django-admin startapp",
+      "answer_c": "django-admin startproject",
+      "answer_d": "django-admin newproject",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "true",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "To create a new Django project, you use the command 'django-admin startproject projectname'.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Django"
+      }
+    ],
+    "category": "Django",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 1346,
+    "question": "What command would you use to build a Docker image directly within an OpenShift cluster using source code from a Git repository?",
+    "description": "Building images from source code within OpenShift can be achieved with specific commands.",
+    "answers": {
+      "answer_a": "oc new-app --docker-image",
+      "answer_b": "oc new-build --strategy=docker --binary",
+      "answer_c": "oc new-build --strategy=docker --source",
+      "answer_d": "oc new-build --from-repo",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "true",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The `oc new-build --strategy=docker --source` command builds a Docker image from source code within the OpenShift environment.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Openshift"
+      }
+    ],
+    "category": "DevOps",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 1020,
+    "question": "Which Process Runs On Kubernetes Master Node?",
+    "description": null,
+    "answers": {
+      "answer_a": "Kube-cli-proxy process runs on Kubernetes master node.",
+      "answer_b": "Kube-cli-server process runs on Kubernetes master node.",
+      "answer_c": "Kube-apiserver process runs on Kubernetes master node.",
+      "answer_d": null,
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "true",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "Kubernetes"
+      }
+    ],
+    "category": "DevOps",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6043,
+    "question": "How do you share state between unrelated components without using Vuex?",
+    "description": "Understanding alternatives to Vuex for sharing state between components.",
+    "answers": {
+      "answer_a": "Create a shared reactive object in a composable and import it into both components",
+      "answer_b": "Use 'props' to pass data",
+      "answer_c": "Directly import one component into the other",
+      "answer_d": "Use 'watchEffect()' in both components",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "You can create a reactive state in a composable function and import it into unrelated components to share state without Vuex.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "VueJS"
+      }
+    ],
+    "category": "VueJS",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 10207,
+    "question": "A Laravel application is experiencing database connection exhaustion under high load. Which approach would most effectively address this issue?",
+    "description": "Managing database connections in high-load Laravel applications.",
+    "answers": {
+      "answer_a": "Increase the maximum database connections limit",
+      "answer_b": "Implement connection pooling with query optimization and read/write splitting",
+      "answer_c": "Add more database servers",
+      "answer_d": "Reduce application functionality to lower database usage",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Connection pooling with query optimization and read/write splitting directly addresses database connection exhaustion. Connection pooling (using tools like PgBouncer or ProxySQL) allows many application processes to share a smaller pool of actual database connections. Query optimization reduces connection hold time by making queries faster. Read/write splitting directs read queries to replicas, reducing primary database load. This comprehensive approach addresses connection limits without simply raising them (which could overload the database), optimizes connection utilization, improves database query efficiency, balances load across database infrastructure, and creates a scalable solution that handles high traffic without connection exhaustion.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Laravel"
+      }
+    ],
+    "category": "Laravel",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 10050,
+    "question": "A JavaScript application needs to efficiently execute many sequential asynchronous operations. Which pattern would be most maintainable?",
+    "description": "Managing complex asynchronous flows in JavaScript.",
+    "answers": {
+      "answer_a": "Nest callbacks for each operation",
+      "answer_b": "Implement an async pipeline with sagas",
+      "answer_c": "Execute all operations in parallel",
+      "answer_d": "Use a recursive setTimeout approach",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "An async pipeline with sagas provides the most maintainable solution for complex async flows. Pipelines organize sequential operations with clear transitions. Sagas manage complex workflows with compensating actions for failures. This approach handles complex sequences with dependencies between steps, provides clean error handling with appropriate rollback capabilities, maintains a clear representation of the process flow, and creates maintainable async code where the sequence and relationships between operations are explicit and well-structured.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5723,
+    "question": "Which of the following is true about Vuex state?",
+    "description": "Understanding the characteristics of Vuex state.",
+    "answers": {
+      "answer_a": "It can only be modified using actions",
+      "answer_b": "It should only be modified through mutations",
+      "answer_c": "It can be modified directly within components",
+      "answer_d": "It should never change",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Vuex state should only be modified through mutations to ensure that state changes are traceable and predictable.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "VueJS"
+      }
+    ],
+    "category": "VueJS",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 4340,
+    "question": "What's the best practice for implementing preview mode in Next.js?",
+    "description": "Understanding content preview. (Medium)",
+    "answers": {
+      "answer_a": "Query parameters",
+      "answer_b": "Preview API with secure tokens",
+      "answer_c": "Public access",
+      "answer_d": "No preview",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Using preview API with secure tokens provides safe content preview functionality while maintaining security and proper access control.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Next.js"
+      }
+    ],
+    "category": "Next.js",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9500,
+    "question": "Which command is used to display the manual page for a specific command in Linux?",
+    "description": "Test your understanding of accessing command documentation in Linux.",
+    "answers": {
+      "answer_a": "man",
+      "answer_b": "help",
+      "answer_c": "info",
+      "answer_d": "manual",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The 'man' command is used to display the manual page for a specific command in Linux.",
+    "tip": "Using 'man' can provide detailed information and usage examples for various commands in Linux.",
+    "tags": [
+      {
+        "name": "Undefined"
+      }
+    ],
+    "category": "Linux",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 9777,
+    "question": "What is a common use case for triggers in SQL?",
+    "description": "Exploring the role of triggers in automating actions based on database events.",
+    "answers": {
+      "answer_a": "To define data types",
+      "answer_b": "To enforce primary key constraints",
+      "answer_c": "To audit changes to specific tables",
+      "answer_d": "To create views",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "true",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Triggers are used to automatically perform actions in response to specific database events, such as inserting, updating, or deleting records.",
+    "tip": "Be cautious when using triggers as they can introduce complexity and affect performance.",
+    "tags": [
+      {
+        "name": "Undefined"
+      }
+    ],
+    "category": "SQL",
+    "difficulty": "Easy"
+  }
+]
