@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import UseQuizData from "./quizGetData";
 import {Box, Button, Flex, Group, Heading} from "@chakra-ui/react";
-import {getCategories, getDifficulties, getQuestionTitles} from "./api/quizParser";
+import {getCategories} from "./api/quizParser";
 import GetDropdown from "./categoryDropdown";
 import QuizAccordion from "./QuizAccordion";
 type SourceType = "api" | "local";
@@ -9,9 +9,11 @@ type SourceType = "api" | "local";
 const QuizDataComponent: React.FC = () => {
     const [params, setParams] = useState<any | null>(null);
     const [source, setSource] = useState<SourceType>("local");
+    const [selectedAnswers, setSelectedAnswers] = useState<string[]>([]); // State to hold selected answers
 
     // Only call the hook if params is set
     const { quizData, loading, error } = UseQuizData(params || undefined, source);
+    // const [answer, setAnswer] = React.useState<submitAnswerType[]>([]);
 
     const handleLoadQuiz = (selectedSource: SourceType) => {
         setSource(selectedSource);
@@ -22,14 +24,10 @@ const QuizDataComponent: React.FC = () => {
         });
     };
 
-    let questionData: string[] = [];
     let categories: string[] = [];
-    let difficulties: string[] = [];
 
     if (quizData) {
-        questionData = getQuestionTitles(quizData);
         categories = getCategories(quizData);
-        difficulties = getDifficulties(quizData);
     }
 
     // Filter quizData based on selected params
@@ -70,7 +68,12 @@ const QuizDataComponent: React.FC = () => {
 
                 {quizData && (
                     <Box>
-                        <QuizAccordion quizData={filteredQuizData} />
+                        <QuizAccordion
+                            onSubmitAnswer={(selected: string[]) => {
+                                setSelectedAnswers(selected);
+                                console.log(selected);
+                            }}
+                            quizData={filteredQuizData} />
                     </Box>
                 )}
             </Box>
